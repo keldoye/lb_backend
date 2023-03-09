@@ -15,6 +15,7 @@ public class Ingredient implements Serializable {
 
      private String name;
 
+     //Review
      private int unitOfMeasure;
 
      private double costPerUnit;
