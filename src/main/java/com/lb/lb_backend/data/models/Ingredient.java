@@ -25,4 +25,35 @@ public class Ingredient implements Serializable {
 
      private Double costPerUnit;
 
+     public int getId() {
+          return id;
+     }
+
+     public void setId(int id) {
+          this.id = id;
+     }
+
+     public String getName() {
+          return name;
+     }
+
+     public void setName(String name) {
+          this.name = name;
+     }
+
+     public UnitsOfMeasure.Units getUnitOfMeasure() {
+          return unitOfMeasure;
+     }
+
+     public void setUnitOfMeasure(UnitsOfMeasure.Units unitOfMeasure) {
+          this.unitOfMeasure = unitOfMeasure;
+     }
+
+     public Double getCostPerUnit() {
+          return costPerUnit;
+     }
+
+     public void setCostPerUnit(Double costPerUnit) {
+          this.costPerUnit = costPerUnit;
+     }
 }
